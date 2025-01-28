@@ -1,10 +1,11 @@
-streamlit
-langchain
-transformers
-sentence-transformers
-faiss-cpu
-bert-score
-unstructured
-pypdf2
-requests
-openai
+langchain==0.0.235  # Replace with the latest LangChain version
+langchain-community  # Required for FAISS and other vectorstores
+openai==0.27.8  # OpenAI library for GPT models and embeddings
+sentence-transformers==2.2.2  # Required for Hugging Face embeddings
+faiss-cpu==1.7.4  # FAISS for vector retrieval (CPU version)
+bert-score==0.3.13  # For evaluation of answers
+unstructured==0.8.5  # For parsing and loading PDF/docx
+pypdf2==3.0.1  # For PDF parsing
+numpy==1.25.0  # Required for numerical computations
+pandas==2.1.1  # For DataFrame handling
+requests==2.31.0  # For API requests
