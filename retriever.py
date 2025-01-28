@@ -7,6 +7,7 @@ import os
 from langchain.embeddings import OpenAIEmbeddings
 
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+HUGGINGFACE_API_KEY = st.secrets["HUGGINGFACE_API_KEY"]
 
 def get_retriever(uploaded_files):
     """
