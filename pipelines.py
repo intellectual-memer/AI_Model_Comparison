@@ -23,7 +23,7 @@ def get_rag_pipelines(retriever, hf_api_key=None, openai_api_key=None):
         openai_answer = None
 
         if hf_api_key:
-            deepseek_answer = call_huggingface_inference_api("deepseek/deepseek-r1", context, query, hf_api_key)
+            deepseek_answer = call_huggingface_inference_api("deepseek-ai/DeepSeek-R1", context, query, hf_api_key)
 
         if openai_api_key:
             openai_answer = call_openai_api(context, query, openai_api_key)
