@@ -5,7 +5,7 @@ sentence-transformers  # Required for Hugging Face embeddings
 faiss-cpu  # FAISS for vector retrieval (CPU version)
 bert-score  # For evaluation of answers
 unstructured  # For parsing and loading PDF/docx
-pypdf2  # For PDF parsing
+pypdf  # For PDF parsing
 numpy  # Required for numerical computations
 pandas  # For DataFrame handling
 requests  # For API requests
